@@ -26,7 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Novox Products'),
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.lightBlueAccent,
         foregroundColor: Colors.white,
       ),
       body: _buildBody(provider),
